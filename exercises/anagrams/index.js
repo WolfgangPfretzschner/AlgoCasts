@@ -47,3 +47,16 @@ module.exports = anagrams;
 // function cleanString(str) {
 //    return str .replace(/[^\w]/g, "") .toLowerCase() .split("") .sort() .join("");
 // }
+
+
+const L = ["a.b@example.com", "x@example.com", "x@exa.mple.com", "ab+1@example.com", "y@example.com", "y@example.com", "y@example.com" ]
+
+function solution(L){
+   let count = 0
+
+   let reg = /^([\w\.]*)/w
+
+   for(let addr of L){
+      
+   }
+}

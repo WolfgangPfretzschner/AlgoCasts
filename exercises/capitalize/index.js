@@ -22,11 +22,11 @@ function capitalize(str) {
 
 module.exports = capitalize;
 
-// function capitalize(str) {
-//    let newArr = []
-//    for (let word of str.split(' ')) {
-//       newArr.push(word[0].toUpperCase() + word.slice(1))
-//    }
-//    return newArr.join(' ')
+function capitalize(str) {
+   let newArr = []
+   for (let word of str.split(' ')) {
+      newArr.push(word[0].toUpperCase() + word.slice(1))
+   }
+   return newArr.join(' ')
 
-// }
+}
